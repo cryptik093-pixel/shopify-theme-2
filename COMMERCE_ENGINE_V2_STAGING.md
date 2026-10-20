@@ -5,7 +5,7 @@ This repository currently has a minimal README and has **not** been confirmed to
 ## Section
 `sections/omega-commerce-gateway.liquid`
 - Above-fold product promise and price bound to the existing **Flagship Producer Starter** product (default handle `flagship-producer-starter`).
-- Routes into the existing **Beats & Licenses** collection (handle `beats-licenses`), verified present through Shopify Admin.
+- Routes into the published **Omega House Beats | Season One** collection (handle `omega-house-beats-season-one`). Admin confirms `beats-licenses` exists but is not published, so the unverified route is not used as a default.
 - Sample packs and plugin destinations intentionally remain disabled until their routes and downloadable assets are verified; custom links can be configured in the theme editor.
 - No timer, unverified inventory counter, trial SKU, hard-coded discount, invalid shipping claim, third-party JavaScript, or autoplay.
 - Scoped CSS, simple CSS grid, responsive mobile design, visible focus treatment, and a normal product-page link for license choice + native checkout.
