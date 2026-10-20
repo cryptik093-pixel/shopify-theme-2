@@ -21,7 +21,7 @@
         {% if starter != blank %}
           <a class="omega-commerce-v2__button" href="{{ starter.url }}">Explore the {{ starter.price_min | money }} Producer Starter <span aria-hidden="true">↗</span></a>
         {% endif %}
-        <a class="omega-commerce-v2__secondary" href="{{ section.settings.beats_url | default: '/collections/beats-licenses' }}">Browse beats &amp; licenses <span aria-hidden="true">↗</span></a>
+        <a class="omega-commerce-v2__secondary" href="{{ section.settings.beats_url | default: '/collections/omega-house-beats-season-one' }}">Browse beats &amp; licenses <span aria-hidden="true">↗</span></a>
       </div>
       <p class="omega-commerce-v2__small">Hear the sound. Understand the license. Choose the right tools.</p>
     </div>
@@ -43,7 +43,7 @@
     {% endif %}
   </div>
   <nav aria-label="Shop by what you are making" class="omega-commerce-v2__lanes">
-    <a href="{{ section.settings.beats_url | default: '/collections/beats-licenses' }}"><strong>Find a beat</strong><span>Hear music and choose licensed rights</span><span aria-hidden="true">↗</span></a>
+    <a href="{{ section.settings.beats_url | default: '/collections/omega-house-beats-season-one' }}"><strong>Find a beat</strong><span>Hear music and choose licensed rights</span><span aria-hidden="true">↗</span></a>
     {% if section.settings.samples_url != blank %}
       <a href="{{ section.settings.samples_url }}"><strong>Build with sounds</strong><span>Browse sample and production packs</span><span aria-hidden="true">↗</span></a>
     {% endif %}
